@@ -1,0 +1,12 @@
+﻿  stdafx.cpp
+  CClientSocket.cpp
+  CListenSocket.cpp
+C:\Mirim\cpp_project\ChatFlow\SocketServer\SocketServer\CListenSocket.cpp(25,33): warning C4311: '형식 캐스트': 'POSITION'에서 'int'(으)로 포인터가 잘립니다.
+C:\Mirim\cpp_project\ChatFlow\SocketServer\SocketServer\CListenSocket.cpp(25,33): warning C4302: '형식 캐스트': 'POSITION'에서 'int'(으)로 잘립니다.
+C:\Mirim\cpp_project\ChatFlow\SocketServer\SocketServer\CListenSocket.cpp(53,15): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Mirim\cpp_project\ChatFlow\SocketServer\SocketServer\CListenSocket.cpp(54,13): warning C4311: '형식 캐스트': 'POSITION'에서 'int'(으)로 포인터가 잘립니다.
+C:\Mirim\cpp_project\ChatFlow\SocketServer\SocketServer\CListenSocket.cpp(54,13): warning C4302: '형식 캐스트': 'POSITION'에서 'int'(으)로 잘립니다.
+  SocketServer.cpp
+  SocketServerDlg.cpp
+  코드를 생성하고 있습니다...
+  SocketServer.vcxproj -> C:\Mirim\cpp_project\ChatFlow\SocketServer\x64\Debug\SocketServer.exe
