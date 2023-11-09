@@ -100,7 +100,8 @@ BOOL CSocketServerDlg::OnInitDialog()
 	//  프레임워크가 이 작업을 자동으로 수행합니다.
 	SetIcon(m_hIcon, TRUE);			// 큰 아이콘을 설정합니다.
 	SetIcon(m_hIcon, FALSE);		// 작은 아이콘을 설정합니다.
-
+	/////
+	// 소켓 생성
 	clientList = (CListBox*)GetDlgItem(IDC_CLIENT_LIST);
 
 	if (m_ListenSocket.Create(21000, SOCK_STREAM)) { // 소켓생성
@@ -165,7 +166,9 @@ HCURSOR CSocketServerDlg::OnQueryDragIcon()
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
-
+// WM_DESTROY 메시지 처리기 OnDestroy 함수 생성
+// 
+// Dialog를 종료할때 Socket 삭제
 void CSocketServerDlg::OnDestroy()
 {
 	CDialogEx::OnDestroy();
